@@ -1,0 +1,249 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 7844,
+      "max": [
+        34.02299118041992,
+        155.63893127441406,
+        11.000086784362793
+      ],
+      "min": [
+        -34.2039909362793,
+        4.930075168609619,
+        -16.601472854614258
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 94128,
+      "componentType": 5126,
+      "count": 7844,
+      "max": [
+        0.999817967414856,
+        0.9738034009933472,
+        0.9999930262565613
+      ],
+      "min": [
+        -0.9999132752418518,
+        -0.9460280537605286,
+        -0.999973475933075
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 7844,
+      "max": [
+        0.9909372925758362,
+        0.9814113974571228
+      ],
+      "min": [
+        0.014671845361590385,
+        0.01626315340399742
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 62752,
+      "componentType": 5126,
+      "count": 7844,
+      "max": [
+        0.9909372925758362,
+        0.9814113974571228
+      ],
+      "min": [
+        0.014671845361590385,
+        0.01626315340399742
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 125504,
+      "componentType": 5126,
+      "count": 7844,
+      "max": [
+        0.9909372925758362,
+        0.9814113974571228
+      ],
+      "min": [
+        0.014671845361590385,
+        0.01626315340399742
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 44112,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "anantvijaysingh (https://sketchfab.com/anantvijaysingh)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/full-clothed-character-e1dba23d55ed484392a1e58576f68a5a",
+      "title": "Full Clothed Character"
+    },
+    "generator": "Sketchfab-13.68.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 176448,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 188256,
+      "byteOffset": 176448,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 188256,
+      "byteOffset": 364704,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 552960,
+      "uri": "scene.bin"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "name": "FABRIC_1_FRONT_99835",
+      "pbrMetallicRoughness": {
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.9826311700321614
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "FullClothedNewCharacter_FABRIC 1_FRONT_99835_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TEXCOORD_0": 2,
+            "TEXCOORD_1": 3,
+            "TEXCOORD_2": 4
+          },
+          "indices": 5,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.220446049250313e-16,
+        -1.0,
+        0.0,
+        0.0,
+        1.0,
+        2.220446049250313e-16,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Sketchfab_model"
+    },
+    {
+      "children": [
+        2
+      ],
+      "matrix": [
+        0.0010000000474974513,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0010000000474974513,
+        0.0,
+        0.0,
+        -0.0010000000474974513,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "02cb815038094faaa014879c7c364199.fbx"
+    },
+    {
+      "children": [
+        3
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        4
+      ],
+      "matrix": [
+        10.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        10.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        10.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "FullClothedNewCharacter"
+    },
+    {
+      "mesh": 0,
+      "name": "FullClothedNewCharacter_FABRIC 1_FRONT_99835_0"
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Sketchfab_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ]
+}

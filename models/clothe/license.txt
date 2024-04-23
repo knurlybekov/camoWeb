@@ -1,0 +1,11 @@
+Model Information:
+* title:	Full Clothed Character
+* source:	https://sketchfab.com/3d-models/full-clothed-character-e1dba23d55ed484392a1e58576f68a5a
+* author:	anantvijaysingh (https://sketchfab.com/anantvijaysingh)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Full Clothed Character" (https://sketchfab.com/3d-models/full-clothed-character-e1dba23d55ed484392a1e58576f68a5a) by anantvijaysingh (https://sketchfab.com/anantvijaysingh) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
