@@ -131,7 +131,7 @@ export const Environment3D = () =>
 
     useEffect(() => 
     {
-        // Hide the loading screan after 2 seconds
+        // Hide the loading screan after 1 second
         const timeout = setTimeout(() =>
         {
             setShowLoadingScreen(false);
