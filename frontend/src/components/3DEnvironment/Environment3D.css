@@ -1,0 +1,84 @@
+.environment 
+{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+}
+
+.environment.normal
+{
+    pointer-events: none;
+}
+
+.canvas-container 
+{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.drop-overlay 
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.312);
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.drop-here-text 
+{
+    font-size: 1.2rem;
+    color: #ffffff;
+}
+
+.environment.dragover 
+{
+    border-color: #aaa;
+}
+
+.environment.dragover .drop-here-text 
+{
+    color: #aaa;
+}
+
+.loading-overlay
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.495);
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.1s ease-in-out;
+}
+
+.fade-in {
+    opacity: 1; /* Show the overlay */
+  }
+
+.loading-text
+{
+    font-size: 1.2rem;
+    color: #ffffff;
+}
+
+.canvas 
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1; /* Ensure canvas appears below overlay */
+}

@@ -1,5 +1,8 @@
-.app
+*
 {
-    display: flex;
-    align-items: center;
+    box-sizing: border-box;
+}
+body
+{
+    background-color: transparent;
 }

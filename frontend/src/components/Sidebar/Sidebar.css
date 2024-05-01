@@ -1,0 +1,34 @@
+.side-nav-bar 
+{
+    position: fixed;
+    top: 0;
+    right: -300px; /* Start with the sidebar hidden */
+    width: 300px; /* Sidebar width */
+    height: 100vh;
+    background-color: #fff; /* Sidebar background color */
+    transition: right 0.3s ease; /* Add transition effect */
+}
+
+.side-nav-bar.open 
+{
+    right: 0; /* Show sidebar when open */
+}
+
+.toggle-arrow 
+{
+    position: absolute;
+    top: 50%;
+    left: -20px; /* Adjust arrow position */
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+    background-color: #ccc; /* Arrow background color */
+    cursor: pointer;
+    /* Add styling for the arrow icon */
+    /* You can use a custom arrow icon or an SVG */
+}
+
+.content 
+{
+    padding: 20px;
+}

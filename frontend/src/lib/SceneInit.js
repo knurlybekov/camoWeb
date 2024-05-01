@@ -52,7 +52,7 @@ export default class SceneInit {
     this.controls = new OrbitControls(this.camera, this.renderer.domElement);
     this.controls.enableZoom = false;
     this.stats = Stats();
-    document.body.appendChild(this.stats.dom);
+    //document.body.appendChild(this.stats.dom); For stat data (Un-comment if needed)
 
     // ambient light which is for the whole scene
     this.ambientLight = new THREE.AmbientLight(0xffffff, 0.5);
@@ -76,17 +76,6 @@ export default class SceneInit {
 
     // if window resizes
     window.addEventListener('resize', () => this.onWindowResize(), false);
-
-    // Load space background.
-    // this.loader = new THREE.TextureLoader();
-    // this.scene.background = this.loader.load('./pics/space.jpeg');
-
-    // Declare uniforms to pass into glsl shaders.
-    // this.uniforms = {
-    //   u_time: { type: 'f', value: 1.0 },
-    //   colorB: { type: 'vec3', value: new THREE.Color(0xfff000) },
-    //   colorA: { type: 'vec3', value: new THREE.Color(0xffffff) },
-    // };
   }
 
   animate() {
