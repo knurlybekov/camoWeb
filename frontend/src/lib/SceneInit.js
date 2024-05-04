@@ -82,6 +82,13 @@ export default class SceneInit {
     // Window is implied.
     // requestAnimationFrame(this.animate.bind(this));
     window.requestAnimationFrame(this.animate.bind(this));
+
+    // Rotate the box mesh
+    if (this.boxMesh) 
+    {
+        this.boxMesh.rotation.y += 0.01;
+    }
+    
     this.render();
     this.stats.update();
     this.controls.update();

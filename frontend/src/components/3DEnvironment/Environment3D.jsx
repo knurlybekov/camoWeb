@@ -21,13 +21,11 @@ export const Environment3D = () =>
     });
 
     var texture = camo2Texture;
-    console.log("Not herepls");
 
     useEffect(() =>
     {
         const test = new SceneInit('myThreeJsCanvas');
         test.initialize();
-        test.animate();
 
         const forestTexture = new THREE.TextureLoader().load('./src/assets/textures/forest.jpg');
         test.scene.background = forestTexture;
@@ -37,6 +35,10 @@ export const Environment3D = () =>
         const boxMesh = new THREE.Mesh(boxGeometry, boxMaterial);
     
         test.scene.add(boxMesh);
+
+        test.boxMesh = boxMesh;
+
+        test.animate();
 
         // //Initialize dat.gui (for easily edition models)
         // const gui = new GUI();
